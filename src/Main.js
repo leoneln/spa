@@ -3,6 +3,8 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
+import Onemore from "./Onemore";
+import Modmain from "./Modmain";
 
 //This guy is the frame of the application....
 class Main extends Component {
@@ -23,11 +25,19 @@ class Main extends Component {
             <li>
               <NavLink to="/contact">Contact</NavLink>
             </li>
+            <li>
+              <NavLink to="/onemore">OneMore</NavLink>
+            </li>
+            <li>
+              <NavLink to="/modmain">Mod Main</NavLink>
+            </li>
           </ul>
           <div className="content" />
           <Route exact path="/" component={Home} />
           <Route path="/stuff" component={Stuff} />
           <Route path="/contact" component={Contact} />
+          <Route path="/onemore" component={Onemore} />
+          <Route path="/modmain" component={Modmain} />
         </div>
       </HashRouter>
     );

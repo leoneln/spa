@@ -9,9 +9,7 @@ class Home extends Component {
           Making changes to pages is pretty straight forward... Modify the
           filename.js file....
         </p>
-        <p>
-          Also creating another page is not too hard.. See for one more steps.
-        </p>
+        <p>Also creating another page is not too hard.. See one more steps.</p>
       </div>
     );
   }
