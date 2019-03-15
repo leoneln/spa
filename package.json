@@ -1,7 +1,7 @@
 {
   "name": "spa",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://leoneln.github.io/spa/",
   "dependencies": {
     "gh-pages": "^2.0.1",
@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeply": "npm run build",
-    "deply": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
