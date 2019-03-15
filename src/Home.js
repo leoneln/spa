@@ -5,7 +5,13 @@ class Home extends Component {
     return (
       <div>
         <h2>HELLO</h2>
-        <p>blah, blah this is home.js. Ok What is happening. Here....</p>
+        <p>
+          Making changes to pages is pretty straight forward... Modify the
+          filename.js file....
+        </p>
+        <p>
+          Also creating another page is not too hard.. See for one more steps.
+        </p>
       </div>
     );
   }
